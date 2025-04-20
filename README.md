@@ -32,7 +32,7 @@
 - 库存预警：​设置库存上下限，库存异常时自动预警。​
 
 #### 2.2.2 订单管理
-- 订单导入：​支持从多平台（如Amazon、eBay、Shopify等）导入订单。
+- 订单导入：​支持从多平台（如Amazon、eBay、Shopify、TEMU、alipress等）导入订单。
 - 订单处理：​自动匹配库存，生成拣货单，支持批量处理订单。
 - 发货管理：​生成物流单号，打印快递面单，安排发货。
 - 订单跟踪：​实时更新订单状态，支持客户查询。​
@@ -76,8 +76,8 @@
 - 权限管理：​基于角色的访问控制（RBAC）确保不同用户角色的权限隔离
 
 ### 3.5 日志与监控
-日志管理：​ELK Stack（Elasticsearch、Logstash、Kibana）或 Graylog 实现日志的集中管理和分析。
-监控系统：​Prometheus + Grafana 实时监控系统性能指标，设置告警机制。
+- 日志管理：​ELK Stack（Elasticsearch、Logstash、Kibana）或 Graylog 实现日志的集中管理和分析。
+- 监控系统：​Prometheus + Grafana 实时监控系统性能指标，设置告警机制。
 
 ### 3.6 部署与运维
 - 云服务平台：​AWS、Azure 或阿里云
